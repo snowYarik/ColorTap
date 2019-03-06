@@ -11,12 +11,7 @@ class MyApp extends StatefulWidget {
   }
 }
 
-class RandomColor extends StatefulWidget {
-  @override
-  State<StatefulWidget> createState() {
-    return new _RandomColorState();
-  }
-}
+
 
 class _RandomColorState extends State<MyApp> {
   final Random _random = Random();
